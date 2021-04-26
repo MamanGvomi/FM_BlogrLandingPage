@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Overpass';
+    src: url(./resources/Overpass-Thin.ttf);
+}
+body{
+    font-family: 'Overpass', arial, sans-serif;
+    color: white;
+    display: flex;
+    margin: auto;
+}
+.firstContainer{
+    background-image: url(./resources/images/bg-pattern-intro.svg);
+    background-position: center;
+    background-color: hsl(356, 100%, 66%);
+    padding: 7em;
+    padding-top: 0em;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 0 auto;
+    border-radius: 0 0 0 50px;
+}
+.navBar{
+    flex: 1 0 100%;
+    display: flex;
+    align-items: center;
+}
+.navItem{
+    flex: 1 0 80%;
+    display: flex;
+    align-items: center;
+}
+.navElem{
+    padding-left: 1em;
+}
+.connexion{
+    flex: 1 0 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.connexionElem{
+    padding-left: 1em;
+}
+.btnSignup{
+    border-color: darkgrey;
+    background-color: white;
+    color: red;
+    padding: 1em;
+    font-weight: bolder;
+    margin-left: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
+    border-radius: 25px;
+    transition: background-color 0.3s;
+}
+a{
+    transition: text-decoration 0.2s, font-weight 0.2s;
+}
+a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.btnSignup:hover{
+    border-color: darkgrey;
+    background-color: lightpink;
+    color: white;
+    padding: 1em;
+    font-weight: bolder;
+    margin-left: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
+    border-radius: 25px;
+}
+.header{
+    flex: 1 0 100%;
+    text-align: center;
+}
+.header h1{
+    font-weight: bolder;
+}
+.btnRow{
+    padding-top: 2em;
+}
+.learnM{
+    border-color: white !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    border: solid;
+    color: white;
+}
