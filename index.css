@@ -96,7 +96,6 @@ a:hover{
     flex: 1 0 100%;
     color: black;
     margin-top: 4em;
-
     height: 100%;
 }
 .secondContainer h1{
@@ -118,4 +117,23 @@ a:hover{
     background-image: url(./resources/images/illustration-editor-desktop.svg);
     background-repeat: no-repeat;
     background-position: right;
+}
+.thirdContainer{
+    flex: 1 1 auto;
+    display: flex;
+    background-color: hsl(237, 17%, 21%);
+    border-radius: 0px 75px 0px 75px;
+    background-image: url(./resources/images/bg-pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-position: left;
+    padding: 8em;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 5em;
+}
+.phone{
+    position: absolute;
+    right: 55vw;
+    
+    
 }
